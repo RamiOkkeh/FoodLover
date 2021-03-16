@@ -28,6 +28,15 @@ nav div a:hover {
 .slide3{
     height: 2000px;
     background-image: url('./img/slide3/slide3bg.png');
+
+}
+
+.slide5{
+    height: 1000px;
+    background-image: url('./img/slide5/slide5bg.png');
+}
+
+.slide3, .slide5{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -36,6 +45,13 @@ nav div a:hover {
 .s3-content{
     padding-top: 500px;
     padding-left: 10vw;
+}
+
+.s5-content{
+    background-color: #1d1d23a1;
+    padding: 100px;
+    border: 10px solid #e58f00;
+    text-align: center;
 }
 
 div.slide1 nav{
@@ -66,17 +82,18 @@ h1, h2, p{
 }
 
 .lorem{
-    color: white;
-    max-width: 400px;
-    font-family: 'Merriweather', serif;
     font-size: 20px;
+    max-width: 540px;
 }
 
 .lorem2{
-    color: white;
-    max-width: 500px;
-    font-family: 'Merriweather', serif;
     font-size: 30px;
+    max-width: 500px;
+}
+
+.lorem, .lorem2{
+    color: white;
+    font-family: 'Merriweather', serif;
 }
 
 .contactUs {
