@@ -23,5 +23,39 @@ nav div a:hover {
 
 div.slide1 nav{
     width: 100%;
-    padding-top: 30px;
+    padding: 30px 0px;
+}
+
+.s1-content{
+    padding: 30px 0px;
+}
+
+.big{
+    font-size: 60px;
+}
+
+h1{
+    color: #e58f00;
+    font-family: 'Merriweather', serif;
+}
+
+.lorem{
+    color: white;
+    max-width: 400px;
+    font-family: 'Merriweather', serif;
+    font-weight: bold;
+}
+
+.contactUs {
+    background-color: #e58f00;
+    font-family: 'Merriweather', serif;
+    outline: none;
+    border: none;
+    width: 160px;
+    height: 50px;
+    transition: 0.5s;
+}
+
+.contactUs:focus {
+    background-color: #e58d00a8;
 }
