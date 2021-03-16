@@ -54,31 +54,33 @@ nav div a:hover {
     text-align: center;
 }
 
+.s6-content *{
+    padding: 5px;
+}
+
 div.slide1 nav{
     width: 100%;
     padding: 30px 0px;
 }
 
 .big{
+    color: #e58f00;
     font-size: 60px;
 }
 
 .big2{
+    color: white;
     font-size: 40px;
 }
 
-h1{
+.big3{
     color: #e58f00;
-    font-family: 'Merriweather', serif;
+    font-size: 30px;
 }
 
-h2{
-    color: white;
-    font-family: 'Merriweather', serif;
-}
-
-h1, h2, p{
+h1, h2, h3, p{
     font-weight: bold;
+    font-family: 'Merriweather', serif;
 }
 
 .lorem{
