@@ -132,3 +132,12 @@ h1, h2, h3, p{
 .space *{
     margin: 0px 10px;
 }
+
+.watermark{
+    color: #a5a5a5;
+}
+
+.watermark:hover{
+    color: #858585;
+    text-decoration: none;
+}
