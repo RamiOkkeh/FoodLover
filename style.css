@@ -22,6 +22,20 @@ nav div a:hover {
 
 .slide1{
     background-image: url('./img/slide1/slide1bg.png');
+    background-size: 100% 100%;
+}
+
+.slide3{
+    height: 200%;
+    background-image: url('./img/slide3/slide3bg.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.s3-content{
+    padding-top: 300px;
+    padding-left: 250px;
 }
 
 div.slide1 nav{
@@ -45,14 +59,16 @@ h1{
 h2{
     color: white;
     font-family: 'Merriweather', serif;
+}
 
+h1, h2, p{
+    font-weight: bold;
 }
 
 .lorem{
     color: white;
     max-width: 400px;
     font-family: 'Merriweather', serif;
-    font-weight: bold;
     font-size: 20px;
 }
 
@@ -60,7 +76,6 @@ h2{
     color: white;
     max-width: 500px;
     font-family: 'Merriweather', serif;
-    font-weight: bold;
     font-size: 30px;
 }
 
