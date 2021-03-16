@@ -2,12 +2,13 @@
     background-color: #1d1d23;
 }
 
-nav div a {
+div a {
+    font-family: 'Montserrat', sans-serif;
     font-size: 12px;
     margin: 10px;
     color: white;
     text-decoration: none;
-    transition: 0.3s
+    transition: 0.3s;
 }
 
 nav div a:hover {
@@ -36,6 +37,14 @@ nav div a:hover {
     background-image: url('./img/slide5/slide5bg.png');
 }
 
+.slide7{
+    height: 1000px;
+    background-image: url('./img/slide7/slide7bg.png');
+    background-size: 100%;
+    background-position-y: 70px;
+    background-repeat: no-repeat;
+}
+
 .slide3, .slide5{
     background-position: center;
     background-repeat: no-repeat;
@@ -56,6 +65,14 @@ nav div a:hover {
 
 .s6-content *{
     padding: 5px;
+}
+
+.s7-content{
+    height: 400px;
+    width: 100%;
+    background-color: #e58f00;
+    background-size:  50% 50%;
+    z-index: -10;
 }
 
 div.slide1 nav{
@@ -110,4 +127,8 @@ h1, h2, h3, p{
 
 .contactUs:focus {
     background-color: #e58d00a8;
+}
+
+.space *{
+    margin: 0px 10px;
 }
