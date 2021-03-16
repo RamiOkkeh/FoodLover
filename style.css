@@ -1,0 +1,9 @@
+body{
+    background-color: #1d1d23;
+}
+
+nav div a {
+    font-size: 12px;
+    margin: 10px;
+    color: white;
+}
