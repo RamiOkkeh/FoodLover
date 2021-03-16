@@ -26,7 +26,7 @@ nav div a:hover {
 }
 
 .slide3{
-    height: 200%;
+    height: 2000px;
     background-image: url('./img/slide3/slide3bg.png');
     background-position: center;
     background-repeat: no-repeat;
@@ -34,7 +34,7 @@ nav div a:hover {
 }
 
 .s3-content{
-    padding-top: 300px;
+    padding-top: 500px;
     padding-left: 250px;
 }
 
