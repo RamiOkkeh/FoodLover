@@ -1,7 +1,16 @@
+/* helpers */
+.max{
+    width: 100%;
+    height: 100%;
+}
+
+
+/* default background color */
 .body{
     background-color: #1d1d23;
 }
 
+/* links */
 div a {
     font-family: 'Montserrat', sans-serif;
     font-size: 1vmax;
@@ -11,28 +20,27 @@ div a {
     transition: 0.3s;
 }
 
+div a:hover {
+    text-decoration: none;
+    color: #e58f00;
+}
+
+/* nav img */
 .navbar img {
     max-height: 8vh;
     max-width: 8vw;
 }
 
-.s1-nav{
-    height: 1vh;
-}
 
-nav div a:hover {
-    text-decoration: none;
-    color: #e58f00;
-}
-
-.max{
-    width: 100%;
-    height: 100%;
-}
-
+/* slides spesific configiration */
 .slide1{
     background-image: url('./img/slide1/slide1bg.png');
     background-size: 100% 100%;
+}
+
+div.slide1 nav{
+    width: 100%;
+    padding: 30px 0px;
 }
 
 .slide3{
@@ -84,9 +92,11 @@ nav div a:hover {
     z-index: -10;
 }
 
-div.slide1 nav{
-    width: 100%;
-    padding: 30px 0px;
+
+/* text configiration */
+h1, h2, h3, p{
+    font-weight: bold;
+    font-family: 'Merriweather', serif;
 }
 
 .big{
@@ -104,11 +114,6 @@ div.slide1 nav{
     font-size: 1.95vw;
 }
 
-h1, h2, h3, p{
-    font-weight: bold;
-    font-family: 'Merriweather', serif;
-}
-
 .lorem{
     font-size: 2vw;
     max-width: 45vw;
@@ -124,6 +129,8 @@ h1, h2, h3, p{
     font-family: 'Merriweather', serif;
 }
 
+
+/* contact button */
 .contactUs {
     background-color: #e58f00;
     font-family: 'Merriweather', serif;
@@ -138,10 +145,12 @@ h1, h2, h3, p{
     background-color: #e58d00a8;
 }
 
+/* for spacing links at the bottom of the page */
 .space *{
     margin: 0px 10px;
 }
 
+/* watermark config */
 .watermark{
     color: #a5a5a5;
 }
@@ -151,7 +160,8 @@ h1, h2, h3, p{
     text-decoration: none;
 }
 
-div img{
+/* responsiveness config */
+img{
     max-width: 45vw;
     max-height: 70vh;
 }
